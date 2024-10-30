@@ -1,0 +1,70 @@
+.entry-content .alignwide {
+	margin-left: -80px;
+	margin-right: -80px
+}
+
+.entry-content .alignfull {
+	margin-left: calc(-100vw / 2 + 100% / 2);
+	margin-right: calc(-100vw / 2 + 100% / 2);
+	max-width: 100vw
+}
+
+.alignfull img {
+	width: 100vw
+}
+
+.wp-block-cover,
+.wp-block-cover-image {
+	width: auto!important;
+}
+
+/*css-2-4-2020*/
+.wp-block-image figure.alignright{float: right;}
+
+/*blockquote {   border-color: rgba(136,95,64,0.05);}*/ 
+.wp-block-pullquote {margin-bottom: 28px;}
+.wp-block-pullquote blockquote p{font-size:28px;font-size:1.125rem;font-style: italic; line-height: 1.7; margin: 0;overflow: hidden;padding: 0;}
+.wp-block-pullquote.is-style-default {border-top: 4px solid #555d66; border-bottom: 4px solid #555d66;color: #40464d;}
+.wp-block-pullquote:not(.is-style-solid-color) {background: none;}
+
+
+#editor .editor-styles-wrapper blockquote.wp-block-quote {text-align: left;}
+#editor .editor-styles-wrapper blockquote.wp-block-quote.has-text-align-right { text-align: right;}
+#editor .editor-styles-wrapper blockquote.wp-block-quote.has-text-align-center {text-align: center;}
+.wp-block-image figure.aligncenter{width: 100%; max-width: 100vw}
+
+.wp-block-pullquote blockquote.has-pale-pink-color{color:#f78da7!important;} .wp-block-pullquote blockquote.has-vivid-red-color{color:#cf2e2e!important;} .wp-block-pullquote blockquote.has-luminous-vivid-orange-color{color:#ff6900!important;} .wp-block-pullquote blockquote.has-luminous-vivid-amber-color{color:#fcb900!important;} .wp-block-pullquote blockquote.has-light-green-cyan-color{color:#7bdcb5!important;} .wp-block-pullquote blockquote.has-vivid-green-cyan-color{color:#00d084!important;} .wp-block-pullquote blockquote.has-pale-cyan-blue-color{color:#8ed1fc!important;} .wp-block-pullquote blockquote.has-vivid-cyan-blue-color{color:#0693e3!important;} .wp-block-pullquote blockquote.has-vivid-purple-color{color:#9b51e0!important;} .wp-block-pullquote blockquote.has-very-light-gray-color{color:#eee!important;} .wp-block-pullquote blockquote.has-cyan-bluish-gray-color{color:#abb8c3!important;} .wp-block-pullquote blockquote.has-very-dark-gray-color{color:#313131!important;}
+
+/*.wp-block-image .aligncenter, .wp-block-image .alignleft, .wp-block-image .alignright, .wp-block-image.is-resized {
+	margin: auto;
+}
+.wp-block-image.aligncenter amp-img { margin: 0 auto;}*/
+
+
+.wp-block-embed-youtube.alignfull.wp-block-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.wp-block-embed-youtube.alignfull.wp-block-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+figcaption{
+padding: 10px 0px;
+text-align: center;
+font-size: 12px;
+border: 1px solid #dcdcdc;
+}
+
+#page img, iframe {
+    max-width: 100%;
+    width: 100%;
+}
